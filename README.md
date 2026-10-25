@@ -1,5 +1,4 @@
-# GadgetInjector (Windows fork)
-
+# GadgetInjector 
 Patch an iOS `.ipa` to auto-load Frida Gadget. No jailbreak needed. For authorized testing on apps you own — that's it, that's the rule.
 
 
@@ -27,7 +26,9 @@ MyApp.ipa  -->  unzip  -->  patch Mach-O (add rpath + load gadget)  -->  repack 
 ## Install
 
 ```powershell
-pip install lief frida frida-tools pymobiledevice3
+uv venv
+.venv\Scripts\activate
+uv pip install lief frida frida-tools pymobiledevice3
 ```
 ---
 

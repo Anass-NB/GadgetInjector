@@ -3,8 +3,6 @@
 """
 GADGET INJECTOR -- Frida Gadget injector for iOS 17/18 with Objection-friendly listen mode (v8, Windows-friendly fork)
 
-Original author: Saurabh (saurabh77789@gmail.com)
-Windows portability tweaks applied by Claude at user's request.
 
 Highlights:
 - Cyberpunk banner (magenta->cyan gradient) by default. Use --vibe to switch styles, --no-banner to suppress.
